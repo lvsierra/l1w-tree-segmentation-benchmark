@@ -79,7 +79,7 @@ Re-running `analysis/` from scratch needs the raw L1W point cloud and each metho
 
 ## Credits
 
-- Supervised by **Dr Keiller Nogueira**. This benchmark is part of his [tree_lidar_benchmark](https://github.com/keillernogueira/tree_lidar_benchmark) project, which combines results on two datasets; I contributed the L1W half, and Ewan Moorcroft ran the FOR-instance half.
+-  This benchmark is part of a tree lidar benchmark project, which combines results on two datasets.
 - The six methods (treeX, TreeLearn, SegmentAnyTree, TLS2Trees, ForAINet, ForestFormer3D) were developed by their respective authors. Their code is not included; only the evaluation of their outputs is.
 - L1W data from the TreeLearn project (Henrich et al., 2024).
 
