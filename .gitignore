@@ -1,0 +1,17 @@
+# Point clouds, label arrays and model weights are not tracked
+*.npy
+*.npz
+*.las
+*.laz
+*.pth
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# macOS
+.DS_Store

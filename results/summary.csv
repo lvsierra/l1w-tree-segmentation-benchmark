@@ -1,0 +1,12 @@
+method,regime,reproduces_table,TP,FP,FN,F1,FP_ruleA,F1_ruleA,FP_ruleB,F1_ruleB,FP_unlabelled,FP_ground,FP_on_trees,FP_median_points,FP_outside_hull
+treeX,preset,True,151,173,5,0.6292,173,0.6292,4,0.9711,0,169,4,124794,140
+TreeLearn,pretrained,True,156,149,0,0.6768,149,0.6768,2,0.9936,0,147,2,130802,144
+TreeLearn,finetuned_ep20,True,155,449,1,0.4079,449,0.4079,12,0.9598,0,437,12,5740,300
+SAT,pretrained,True,141,420,15,0.3933,420,0.3933,118,0.6795,0,302,118,17919,
+SAT,finetuned_candA_SATft,False,134,192,22,0.556,192,0.556,32,0.8323,0,160,32,83380,157
+SAT,finetuned_candB_SATftA,True,149,224,7,0.5633,224,0.5633,40,0.8638,0,184,40,79326,182
+TLS2Trees,pretrained,True,153,306,3,0.4976,306,0.4976,5,0.9745,0,301,5,25575,219
+ForAINet,pretrained,True,126,279,30,0.4492,279,0.4492,60,0.7368,0,219,60,67977,215
+FF3D,pretrained,True,149,241,7,0.5458,241,0.5458,15,0.9313,0,226,15,71339,217
+FF3D,finetuned_candA_ft,False,0,0,156,0.0,0,0.0,0,0.0,0,0,0,0,0
+FF3D,finetuned_candB_ft3,True,151,153,5,0.6565,153,0.6565,1,0.9805,0,152,1,125793,148

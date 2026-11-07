@@ -1,0 +1,15 @@
+a,b,protocol,mean,lo,hi,verdict
+FF3D fine-tuned,treeX preset,strict,0.0270,-0.0180,0.0766,not distinguishable
+FF3D fine-tuned,treeX preset,corrected,0.0822,0.0155,0.1670,differs
+FF3D fine-tuned,FF3D pretrained,strict,0.1096,0.0660,0.1598,differs
+FF3D fine-tuned,FF3D pretrained,corrected,0.0580,0.0319,0.0851,differs
+TreeLearn pretrained,TreeLearn fine-tuned,strict,0.2647,0.1831,0.3477,differs
+TreeLearn pretrained,TreeLearn fine-tuned,corrected,0.3122,0.1446,0.4714,differs
+SAT fine-tuned,SAT pretrained,strict,0.1693,0.1346,0.2045,differs
+SAT fine-tuned,SAT pretrained,corrected,0.1866,0.1416,0.2343,differs
+FF3D pretrained,treeX preset,strict,-0.0826,-0.1462,-0.0215,differs
+FF3D pretrained,treeX preset,corrected,0.0242,-0.0435,0.1046,not distinguishable
+treeX preset,TLS2Trees pretrained,strict,0.1299,0.0816,0.1776,differs
+treeX preset,TLS2Trees pretrained,corrected,0.1183,0.0496,0.1928,differs
+treeX preset,ForAINet pretrained,strict,0.1797,0.1240,0.2337,differs
+treeX preset,ForAINet pretrained,corrected,0.1614,0.0666,0.2430,differs

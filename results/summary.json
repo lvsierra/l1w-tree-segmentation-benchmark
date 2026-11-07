@@ -1,0 +1,484 @@
+[
+  {
+    "method": "treeX",
+    "regime": "preset",
+    "reproduces_table": true,
+    "baseline": {
+      "tp": 151,
+      "fp": 173,
+      "fn": 5,
+      "precision": 0.466,
+      "recall": 0.9679,
+      "f1": 0.6292,
+      "mean_iou": 0.9198
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 151,
+      "fp": 173,
+      "fn": 5,
+      "precision": 0.466,
+      "recall": 0.9679,
+      "f1": 0.6292,
+      "mean_iou": 0.9198
+    },
+    "rule_B_ignore_background": {
+      "tp": 151,
+      "fp": 4,
+      "fn": 5,
+      "precision": 0.9742,
+      "recall": 0.9679,
+      "f1": 0.9711,
+      "mean_iou": 0.9198
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 169,
+      "mostly_on_reference_trees": 4
+    },
+    "fp_median_points": 124794,
+    "geometry": {
+      "fp_outside_hull": 140,
+      "fp_outside_hull_by_2m": 134,
+      "fp_inside_hull": 33
+    },
+    "seconds": 23.9
+  },
+  {
+    "method": "TreeLearn",
+    "regime": "pretrained",
+    "reproduces_table": true,
+    "baseline": {
+      "tp": 156,
+      "fp": 149,
+      "fn": 0,
+      "precision": 0.5115,
+      "recall": 1.0,
+      "f1": 0.6768,
+      "mean_iou": 0.9853
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 156,
+      "fp": 149,
+      "fn": 0,
+      "precision": 0.5115,
+      "recall": 1.0,
+      "f1": 0.6768,
+      "mean_iou": 0.9853
+    },
+    "rule_B_ignore_background": {
+      "tp": 156,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.9873,
+      "recall": 1.0,
+      "f1": 0.9936,
+      "mean_iou": 0.9853
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 147,
+      "mostly_on_reference_trees": 2
+    },
+    "fp_median_points": 130802,
+    "geometry": {
+      "fp_outside_hull": 144,
+      "fp_outside_hull_by_2m": 140,
+      "fp_inside_hull": 5
+    },
+    "seconds": 10.5
+  },
+  {
+    "method": "TreeLearn",
+    "regime": "finetuned_ep20",
+    "reproduces_table": true,
+    "baseline": {
+      "tp": 155,
+      "fp": 449,
+      "fn": 1,
+      "precision": 0.2566,
+      "recall": 0.9936,
+      "f1": 0.4079,
+      "mean_iou": 0.9726
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 155,
+      "fp": 449,
+      "fn": 1,
+      "precision": 0.2566,
+      "recall": 0.9936,
+      "f1": 0.4079,
+      "mean_iou": 0.9726
+    },
+    "rule_B_ignore_background": {
+      "tp": 155,
+      "fp": 12,
+      "fn": 1,
+      "precision": 0.9281,
+      "recall": 0.9936,
+      "f1": 0.9598,
+      "mean_iou": 0.9726
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 437,
+      "mostly_on_reference_trees": 12
+    },
+    "fp_median_points": 5740,
+    "geometry": {
+      "fp_outside_hull": 300,
+      "fp_outside_hull_by_2m": 284,
+      "fp_inside_hull": 149
+    },
+    "seconds": 10.8
+  },
+  {
+    "method": "SAT",
+    "regime": "pretrained",
+    "reproduces_table": true,
+    "baseline": {
+      "tp": 141,
+      "fp": 420,
+      "fn": 15,
+      "precision": 0.2513,
+      "recall": 0.9038,
+      "f1": 0.3933,
+      "mean_iou": 0.8292
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 141,
+      "fp": 420,
+      "fn": 15,
+      "precision": 0.2513,
+      "recall": 0.9038,
+      "f1": 0.3933,
+      "mean_iou": 0.8292
+    },
+    "rule_B_ignore_background": {
+      "tp": 141,
+      "fp": 118,
+      "fn": 15,
+      "precision": 0.5444,
+      "recall": 0.9038,
+      "f1": 0.6795,
+      "mean_iou": 0.8292
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 302,
+      "mostly_on_reference_trees": 118
+    },
+    "fp_median_points": 17919,
+    "geometry": {
+      "note": "coordinates skipped: point count differs from the .laz (SAT-aligned GT)"
+    },
+    "seconds": 8.6
+  },
+  {
+    "method": "SAT",
+    "regime": "finetuned_candA_SATft",
+    "reproduces_table": false,
+    "baseline": {
+      "tp": 134,
+      "fp": 192,
+      "fn": 22,
+      "precision": 0.411,
+      "recall": 0.859,
+      "f1": 0.556,
+      "mean_iou": 0.89
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 134,
+      "fp": 192,
+      "fn": 22,
+      "precision": 0.411,
+      "recall": 0.859,
+      "f1": 0.556,
+      "mean_iou": 0.89
+    },
+    "rule_B_ignore_background": {
+      "tp": 134,
+      "fp": 32,
+      "fn": 22,
+      "precision": 0.8072,
+      "recall": 0.859,
+      "f1": 0.8323,
+      "mean_iou": 0.89
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 160,
+      "mostly_on_reference_trees": 32
+    },
+    "fp_median_points": 83380,
+    "geometry": {
+      "fp_outside_hull": 157,
+      "fp_outside_hull_by_2m": 153,
+      "fp_inside_hull": 35
+    },
+    "seconds": 9.8
+  },
+  {
+    "method": "SAT",
+    "regime": "finetuned_candB_SATftA",
+    "reproduces_table": true,
+    "baseline": {
+      "tp": 149,
+      "fp": 224,
+      "fn": 7,
+      "precision": 0.3995,
+      "recall": 0.9551,
+      "f1": 0.5633,
+      "mean_iou": 0.8569
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 149,
+      "fp": 224,
+      "fn": 7,
+      "precision": 0.3995,
+      "recall": 0.9551,
+      "f1": 0.5633,
+      "mean_iou": 0.8569
+    },
+    "rule_B_ignore_background": {
+      "tp": 149,
+      "fp": 40,
+      "fn": 7,
+      "precision": 0.7884,
+      "recall": 0.9551,
+      "f1": 0.8638,
+      "mean_iou": 0.8569
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 184,
+      "mostly_on_reference_trees": 40
+    },
+    "fp_median_points": 79326,
+    "geometry": {
+      "fp_outside_hull": 182,
+      "fp_outside_hull_by_2m": 176,
+      "fp_inside_hull": 42
+    },
+    "seconds": 11.9
+  },
+  {
+    "method": "TLS2Trees",
+    "regime": "pretrained",
+    "reproduces_table": true,
+    "baseline": {
+      "tp": 153,
+      "fp": 306,
+      "fn": 3,
+      "precision": 0.3333,
+      "recall": 0.9808,
+      "f1": 0.4976,
+      "mean_iou": 0.838
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 153,
+      "fp": 306,
+      "fn": 3,
+      "precision": 0.3333,
+      "recall": 0.9808,
+      "f1": 0.4976,
+      "mean_iou": 0.838
+    },
+    "rule_B_ignore_background": {
+      "tp": 153,
+      "fp": 5,
+      "fn": 3,
+      "precision": 0.9684,
+      "recall": 0.9808,
+      "f1": 0.9745,
+      "mean_iou": 0.838
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 301,
+      "mostly_on_reference_trees": 5
+    },
+    "fp_median_points": 25575,
+    "geometry": {
+      "fp_outside_hull": 219,
+      "fp_outside_hull_by_2m": 208,
+      "fp_inside_hull": 87
+    },
+    "seconds": 11.0
+  },
+  {
+    "method": "ForAINet",
+    "regime": "pretrained",
+    "reproduces_table": true,
+    "baseline": {
+      "tp": 126,
+      "fp": 279,
+      "fn": 30,
+      "precision": 0.3111,
+      "recall": 0.8077,
+      "f1": 0.4492,
+      "mean_iou": 0.8146
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 126,
+      "fp": 279,
+      "fn": 30,
+      "precision": 0.3111,
+      "recall": 0.8077,
+      "f1": 0.4492,
+      "mean_iou": 0.8146
+    },
+    "rule_B_ignore_background": {
+      "tp": 126,
+      "fp": 60,
+      "fn": 30,
+      "precision": 0.6774,
+      "recall": 0.8077,
+      "f1": 0.7368,
+      "mean_iou": 0.8146
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 219,
+      "mostly_on_reference_trees": 60
+    },
+    "fp_median_points": 67977,
+    "geometry": {
+      "fp_outside_hull": 215,
+      "fp_outside_hull_by_2m": 207,
+      "fp_inside_hull": 64
+    },
+    "seconds": 11.2
+  },
+  {
+    "method": "FF3D",
+    "regime": "pretrained",
+    "reproduces_table": true,
+    "baseline": {
+      "tp": 149,
+      "fp": 241,
+      "fn": 7,
+      "precision": 0.3821,
+      "recall": 0.9551,
+      "f1": 0.5458,
+      "mean_iou": 0.8997
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 149,
+      "fp": 241,
+      "fn": 7,
+      "precision": 0.3821,
+      "recall": 0.9551,
+      "f1": 0.5458,
+      "mean_iou": 0.8997
+    },
+    "rule_B_ignore_background": {
+      "tp": 149,
+      "fp": 15,
+      "fn": 7,
+      "precision": 0.9085,
+      "recall": 0.9551,
+      "f1": 0.9313,
+      "mean_iou": 0.8997
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 226,
+      "mostly_on_reference_trees": 15
+    },
+    "fp_median_points": 71339,
+    "geometry": {
+      "fp_outside_hull": 217,
+      "fp_outside_hull_by_2m": 214,
+      "fp_inside_hull": 24
+    },
+    "seconds": 10.5
+  },
+  {
+    "method": "FF3D",
+    "regime": "finetuned_candA_ft",
+    "reproduces_table": false,
+    "baseline": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 156,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mean_iou": 0.0
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 156,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mean_iou": 0.0
+    },
+    "rule_B_ignore_background": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 156,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mean_iou": 0.0
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 0,
+      "mostly_on_reference_trees": 0
+    },
+    "fp_median_points": 0,
+    "geometry": {
+      "fp_outside_hull": 0,
+      "fp_outside_hull_by_2m": 0,
+      "fp_inside_hull": 0
+    },
+    "seconds": 3.1
+  },
+  {
+    "method": "FF3D",
+    "regime": "finetuned_candB_ft3",
+    "reproduces_table": true,
+    "baseline": {
+      "tp": 151,
+      "fp": 153,
+      "fn": 5,
+      "precision": 0.4967,
+      "recall": 0.9679,
+      "f1": 0.6565,
+      "mean_iou": 0.9197
+    },
+    "rule_A_ignore_unlabelled": {
+      "tp": 151,
+      "fp": 153,
+      "fn": 5,
+      "precision": 0.4967,
+      "recall": 0.9679,
+      "f1": 0.6565,
+      "mean_iou": 0.9197
+    },
+    "rule_B_ignore_background": {
+      "tp": 151,
+      "fp": 1,
+      "fn": 5,
+      "precision": 0.9934,
+      "recall": 0.9679,
+      "f1": 0.9805,
+      "mean_iou": 0.9197
+    },
+    "fp_categories": {
+      "mostly_unlabelled(-1)": 0,
+      "mostly_ground(0)": 152,
+      "mostly_on_reference_trees": 1
+    },
+    "fp_median_points": 125793,
+    "geometry": {
+      "fp_outside_hull": 148,
+      "fp_outside_hull_by_2m": 144,
+      "fp_inside_hull": 5
+    },
+    "seconds": 10.6
+  }
+]
